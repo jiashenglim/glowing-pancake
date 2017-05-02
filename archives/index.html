@@ -1,0 +1,119 @@
+<html>
+  <head>
+    <title> GIF SOME LOVE </title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  </head>
+  <body>
+
+    <h1>GIF SOME LOVE </h1>
+    <h2>I love HTML </h2>
+    <table>
+      <tr>
+        <td>
+          <img src="https://media.giphy.com/media/PmpA5ohOUl1xC/giphy.gif" alt="HTML5 Icon" style="width:250px;height:250px;">
+        </td>
+        <td>
+        <table>
+          <tr>
+            <td>
+            <b>Count: <span id="gifOneCount">0</span> </b>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <button onclick="increaseCountGifOne()"> Vote</button>
+            </td>
+          </tr>
+
+        </table>
+            </td>
+                <td>
+                    <img src="http://p.fod4.com/p/media/b808431fbb/m8YD3waBSPCsYzvwLDcj_donald%20trump%20electrocuted.gif" alt="LOL" style="width:250px;height:250px;">
+                <td>
+                <table>
+                  <tr>
+                    <td>
+                      <b>Count: <span id="gif2Count">0</span> </b>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                    <button onclick="increaseCountGif2()"> Vote</button>
+                    </td>
+                </tr>
+                </td>
+              </table>
+
+              <tr>
+                <td>
+                  <img src="https://media.giphy.com/media/PmpA5ohOUl1xC/giphy.gif" alt="HTML5 Icon" style="width:250px;height:250px;">
+                </td>
+                <td>
+                <table>
+                  <tr>
+                    <td>
+                    <b>Count: <span id="gif3Count">0</span> </b>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <button onclick="increaseCountGif3()"> Vote</button>
+                    </td>
+                  </tr>
+
+                </table>
+                    </td>
+                        <td>
+                            <img src="http://p.fod4.com/p/media/b808431fbb/m8YD3waBSPCsYzvwLDcj_donald%20trump%20electrocuted.gif" alt="LOL" style="width:250px;height:250px;">
+                        <td>
+                        <table>
+                          <tr>
+                            <td>
+                            <b>Count: <span id="gif4Count">0</span> </b>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>
+                            <button onclick="increaseCountGif4()"> Vote</button>
+                            </td>
+                        </tr>
+                        </td>
+                      </table>
+
+
+
+
+
+
+<script>
+  var gif1 = 0
+  function increaseCountGifOne(){
+    gif1 += 1
+    $("#gifOneCount").html(gif1)
+  }
+
+  var gif2 = 0
+  function increaseCountGif2(){
+    gif2 += 1
+    $("#gif2Count").html(gif2)
+  }
+
+  var gif3 = 0
+  function increaseCountGif3(){
+    gif3 += 1
+    $("#gif3Count").html(gif3)
+  }
+
+  var gif4 = 0
+  function increaseCountGif4(){
+    gif4 += 1
+    $("#gif4Count").html(gif4)
+  }
+
+
+</script>
+
+
+  </body>
+
+  </html>
